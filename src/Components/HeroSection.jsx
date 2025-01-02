@@ -4,7 +4,7 @@ import heroimage from '../assets/heroimage.png'
 const HeroSection = () => {
   return (
     <section className="pt-2">
-      <div className="conatainer mx-auto md:mx-[300px] lg:mx-[400px] ">
+      <div className="conatainer mx-auto md:mx-[300px] lg:mx-[400px]">
       <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center">
         {/* Text Section */}
         <div className="lg:w-1/2 text-center lg:text-left space-y-4">

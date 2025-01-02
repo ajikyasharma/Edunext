@@ -59,7 +59,7 @@ export default function CardSection() {
 
   return (
     <section className="py-10 bg-white">
-        <div className="container mx-auto">
+        <div className="container mx-auto max-w-7xl">
       <h2 className="text-center text-3xl font-bold mb-2">Our Comprehensive Offerings</h2>
       <h4 className="text-center text-md lg:text-lg mb-6">Join the League of India’s most futuristic and comprehensive School Management<br/> Software that meets all your school-specific needs.</h4>
       <div className="flex flex-wrap justify-center sm:space-x-4 mb-6">

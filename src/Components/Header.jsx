@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className="w-full shadow-md bg-white">
       <div className="bg-gray-100 py-2">
-        <div className="container mx-auto flex justify-between items-center px-4 text-sm text-gray-700">
+        <div className="container mx-auto  max-w-7xl flex justify-between items-center px-4 text-sm text-gray-700">
           <div className=" hidden sm:flex items-center space-x-4">
             <a href="tel:+917065965900" className="flex items-center space-x-1 text-blue-600">
               <Phone className="text-blue-600" />
@@ -33,7 +33,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="container mx-auto flex justify-between items-center px-4 py-4">
+      <div className="container mx-auto max-w-7xl flex justify-between items-center px-4 py-4">
         <img src={logo} alt="Logo" className="h-10" />
 
         {/* Desktop Menu */}

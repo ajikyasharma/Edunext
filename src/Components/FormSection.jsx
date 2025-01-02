@@ -3,7 +3,7 @@ import React from "react";
 const FormSection = () => {
   return (
     <section className="bg-gradient-to-t from-green-300 to-white  shadow-lg py-8">
-      <div className="container mx-auto p-4 md:mx-[200px] bg-white">
+      <div className="container mx-auto p-4 max-w-7xl bg-white">
         <h2 className="text-2xl font-bold text-blue-900">Get Edunext ERP for your school</h2>
         <form className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
           <input type="text" placeholder="Full Name" className="border p-2 rounded-md" />
